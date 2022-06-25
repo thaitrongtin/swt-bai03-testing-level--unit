@@ -35,7 +35,7 @@ public class AdvancedFactorialTest {
     @Parameterized.Parameter(value = 0) // dung de map value cua mang
     public int input; // input map cot 0 cua mang
     
-    @Parameter(value = 1)
+    @Parameterized.Parameter(value = 1) 
     public long expected;// expected map cot 1 cua mang
     @Test
        public void checkFactorialGivenCorrectArgumentReturnsWell() {
